@@ -43145,6 +43145,76 @@
 			)
 		)
 	)
+	(dimension
+		(type orthogonal)
+		(layer "B.Cu")
+		(uuid "8158ef6e-e6dd-4fd4-ae6d-a9338c36d513")
+		(pts
+			(xy 31.2575 27.4475) (xy 33.02 29.21)
+		)
+		(height -6.2385)
+		(orientation 0)
+		(gr_text "1.7625 mm"
+			(at 32.13875 19.409 0)
+			(layer "B.Cu")
+			(uuid "8158ef6e-e6dd-4fd4-ae6d-a9338c36d513")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+				(justify mirror)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "B.Cu")
+		(uuid "a6188e9c-ad5d-4c91-99b5-ae525fcb5708")
+		(pts
+			(xy 33.02 29.21) (xy 28.2575 27.4475)
+		)
+		(height -13.97)
+		(orientation 0)
+		(gr_text "4.7625 mm"
+			(at 30.63875 13.44 0)
+			(layer "B.Cu")
+			(uuid "a6188e9c-ad5d-4c91-99b5-ae525fcb5708")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+				(justify mirror)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(segment
 		(start 38.735 36.195)
 		(end 35.12375 36.195)
