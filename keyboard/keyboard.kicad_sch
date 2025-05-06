@@ -724,12 +724,6 @@
 		(uuid "4ea73d2f-4219-4498-9491-3c2fc46f89b0")
 	)
 	(junction
-		(at 54.61 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "554d9050-f1f4-4cd2-91c1-4eb0580602f0")
-	)
-	(junction
 		(at 181.61 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -890,6 +884,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83e64f33-8e8c-4404-bb24-5c6c058aa61b")
+	)
+	(junction
+		(at 54.61 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "864e6a53-7dc8-4421-b3d0-4942c12fab69")
 	)
 	(junction
 		(at 199.39 90.17)
@@ -1471,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 54.61 68.58)
+			(xy 54.61 39.37) (xy 54.61 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2551,6 +2551,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 52.07) (xy 54.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4650a5-4b36-48f1-afe0-fc674eba22d0")
+	)
+	(wire
+		(pts
 			(xy 72.39 81.28) (xy 85.09 81.28)
 		)
 		(stroke
@@ -2888,16 +2898,6 @@
 			(type default)
 		)
 		(uuid "e93f93cd-9df9-405d-81a3-232e6e8f2433")
-	)
-	(wire
-		(pts
-			(xy 54.61 39.37) (xy 54.61 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae9585c-46bb-4bcb-9a52-677207e87028")
 	)
 	(wire
 		(pts
@@ -3810,7 +3810,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b33b89-f21f-4524-ae78-7c23436dd256")
 		(property "Reference" "S40"
@@ -3829,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 201.93 92.71 0)
 			(effects
 				(font
@@ -3897,7 +3897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 190.5 130.81 0)
 			(effects
 				(font
@@ -3946,7 +3946,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07a57be3-c0a6-430f-8dee-0f924d05115a")
 		(property "Reference" "S60"
@@ -3965,7 +3965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 213.36 110.49 0)
 			(effects
 				(font
@@ -4014,7 +4014,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07b9b60a-16b4-4a6f-bbb1-a69abfc45f31")
 		(property "Reference" "S20"
@@ -4033,7 +4033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -4325,7 +4325,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f17de43-df56-4132-b440-e2b570c5ca16")
 		(property "Reference" "S15"
@@ -4701,7 +4701,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bae6634-4a5f-4c41-912a-7ce814527aa4")
 		(property "Reference" "S22"
@@ -4720,7 +4720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 140.97 71.12 0)
 			(effects
 				(font
@@ -5074,31 +5074,33 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 57.15 49.53 0)
+		(at 57.15 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e6d9ee-96ff-470b-a2e4-cb269d91c221")
 		(property "Reference" "S1"
-			(at 57.15 41.91 0)
+			(at 60.96 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "ESC"
-			(at 57.15 44.45 0)
+			(at 60.96 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 49.53 0)
 			(effects
 				(font
@@ -5323,7 +5325,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29519f2f-15e7-4d50-87fc-16769f161c4a")
 		(property "Reference" "S8"
@@ -5342,7 +5344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 140.97 49.53 0)
 			(effects
 				(font
@@ -5567,7 +5569,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "302c11fc-571d-498b-8d7a-eb3fc8b58273")
 		(property "Reference" "S33"
@@ -5586,7 +5588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 118.11 92.71 0)
 			(effects
 				(font
@@ -5723,7 +5725,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "334b4011-b0de-4fd1-8fc3-af7c6c0fc08f")
 		(property "Reference" "S34"
@@ -5742,7 +5744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -5879,7 +5881,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34ae814a-2a77-43d6-87d3-6550737b7a5d")
 		(property "Reference" "S35"
@@ -5898,7 +5900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -5947,7 +5949,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "351fad13-1f8c-4cfe-9d8a-88a8974338b3")
 		(property "Reference" "S9"
@@ -5966,7 +5968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 49.53 0)
 			(effects
 				(font
@@ -6168,7 +6170,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a9807d0-e7e1-4189-ba4b-4aa68b9e7200")
 		(property "Reference" "S3"
@@ -6187,7 +6189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 49.53 0)
 			(effects
 				(font
@@ -6324,7 +6326,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41153f66-bce8-459e-9ac3-0f35a557974f")
 		(property "Reference" "S12"
@@ -6343,7 +6345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 190.5 49.53 0)
 			(effects
 				(font
@@ -6392,7 +6394,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46127ac7-2fd1-4dc2-817b-21771dfbac31")
 		(property "Reference" "S13"
@@ -6411,7 +6413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 201.93 49.53 0)
 			(effects
 				(font
@@ -6460,7 +6462,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4657d3d5-38b2-4443-bbfc-2ca21a0c4077")
 		(property "Reference" "S57"
@@ -6528,7 +6530,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "475ad26a-9f8f-4eb7-93dd-8819fb0f86d0")
 		(property "Reference" "S29"
@@ -6596,7 +6598,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "481c2793-6c1d-45c6-871c-deee054ccfc8")
 		(property "Reference" "S28"
@@ -6664,7 +6666,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "486ac3b5-9230-42ca-b8ac-43989541a9cf")
 		(property "Reference" "S46"
@@ -6683,7 +6685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 106.68 110.49 0)
 			(effects
 				(font
@@ -6996,7 +6998,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c27e2fe-6558-4c96-919d-f16eba8874e4")
 		(property "Reference" "S32"
@@ -7015,7 +7017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 106.68 92.71 0)
 			(effects
 				(font
@@ -7416,7 +7418,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54cddfe8-cdf3-4827-8933-bf95a509f4b3")
 		(property "Reference" "S2"
@@ -7435,7 +7437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 69.85 49.53 0)
 			(effects
 				(font
@@ -7572,7 +7574,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56588a7f-7353-4abc-a6b8-73d1f59dede9")
 		(property "Reference" "S27"
@@ -7591,7 +7593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 201.93 71.12 0)
 			(effects
 				(font
@@ -7640,7 +7642,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5731f413-8108-4b15-ae89-0ba8bfa04c58")
 		(property "Reference" "S4"
@@ -7659,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -7708,7 +7710,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5886ad99-ba94-4c09-8e89-0c2542c9c8c5")
 		(property "Reference" "S18"
@@ -7727,7 +7729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 95.25 71.12 0)
 			(effects
 				(font
@@ -7864,7 +7866,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63a243a0-b1cd-4218-8f43-2caf4364872a")
 		(property "Reference" "S52"
@@ -7883,7 +7885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -7999,7 +8001,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63ec87e0-f15c-412c-bf71-b5664e468b07")
 		(property "Reference" "S11"
@@ -8018,7 +8020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 179.07 49.53 0)
 			(effects
 				(font
@@ -8067,7 +8069,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "651b7683-76b7-4226-96e3-57f30f383cda")
 		(property "Reference" "S25"
@@ -8086,7 +8088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 179.07 71.12 0)
 			(effects
 				(font
@@ -8202,7 +8204,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6927d298-02cd-4671-9bf9-32877db12a3c")
 		(property "Reference" "S17"
@@ -8221,7 +8223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 71.12 0)
 			(effects
 				(font
@@ -8358,7 +8360,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b7a0ff8-8012-41b0-9d35-fa7c26ae93ab")
 		(property "Reference" "S54"
@@ -8533,7 +8535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 213.36 130.81 0)
 			(effects
 				(font
@@ -8670,7 +8672,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7235163f-ba64-4471-a176-1894b1a71dab")
 		(property "Reference" "S49"
@@ -8689,7 +8691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 140.97 110.49 0)
 			(effects
 				(font
@@ -8757,7 +8759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -8982,7 +8984,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ccafb8e-5bd6-4178-ad52-4f0923ed1158")
 		(property "Reference" "S36"
@@ -9001,7 +9003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 92.71 0)
 			(effects
 				(font
@@ -9360,7 +9362,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a3de2fb-8161-453b-992f-5dcfe9058ff4")
 		(property "Reference" "S41"
@@ -9583,7 +9585,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a9508ae-8a97-467d-a98f-205ce5456097")
 		(property "Reference" "S14"
@@ -9739,7 +9741,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ccfe5ac-8f3e-418b-ab31-321b5ef47c74")
 		(property "Reference" "S31"
@@ -9758,7 +9760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 95.25 92.71 0)
 			(effects
 				(font
@@ -9895,7 +9897,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9866a42c-3cd9-46ef-a5b8-9b5dacbdd257")
 		(property "Reference" "S43"
@@ -9914,7 +9916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 69.85 110.49 0)
 			(effects
 				(font
@@ -9963,7 +9965,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9892ae87-7f5d-43bb-856e-fb076b04e704")
 		(property "Reference" "S5"
@@ -9982,7 +9984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -10295,7 +10297,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d853084-decf-4da3-9f5d-41286bbbea93")
 		(property "Reference" "S56"
@@ -10363,7 +10365,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1a86a59-9cdd-4353-afc5-016db90d5b71")
 		(property "Reference" "S51"
@@ -10382,7 +10384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 166.37 110.49 0)
 			(effects
 				(font
@@ -10607,7 +10609,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a577d558-7b68-44d5-897f-cb15bafa725d")
 		(property "Reference" "S6"
@@ -10626,7 +10628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 118.11 49.53 0)
 			(effects
 				(font
@@ -10675,7 +10677,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b971d1-0ac1-440e-8717-aed7ad61db40")
 		(property "Reference" "S39"
@@ -10694,7 +10696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 190.5 92.71 0)
 			(effects
 				(font
@@ -11227,7 +11229,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9c0370e-4703-445f-9285-e7eba6d847aa")
 		(property "Reference" "S19"
@@ -11246,7 +11248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 106.68 71.12 0)
 			(effects
 				(font
@@ -11691,7 +11693,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c86190be-696a-4d35-8c8f-52b024176f35")
 		(property "Reference" "S55"
@@ -11710,7 +11712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 69.85 130.81 0)
 			(effects
 				(font
@@ -11847,7 +11849,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc4ca299-68f1-4db5-8c64-8a044f5c3b83")
 		(property "Reference" "S42"
@@ -11915,7 +11917,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc75871c-e3ca-4e4e-a6fe-66b3893b276e")
 		(property "Reference" "S58"
@@ -12050,7 +12052,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b63a0b-181a-4391-9108-9737f028a318")
 		(property "Reference" "S21"
@@ -12069,7 +12071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -12294,7 +12296,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3447487-97de-4e86-8e0d-096c31126ebc")
 		(property "Reference" "S38"
@@ -12313,7 +12315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 179.07 92.71 0)
 			(effects
 				(font
@@ -12362,7 +12364,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d415b4b0-84a6-4c56-96a2-df5084308678")
 		(property "Reference" "S24"
@@ -12381,7 +12383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 166.37 71.12 0)
 			(effects
 				(font
@@ -12518,7 +12520,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b292bb-a165-43dd-94c6-bc3fac494ff3")
 		(property "Reference" "S7"
@@ -12537,7 +12539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 49.53 0)
 			(effects
 				(font
@@ -12674,7 +12676,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc2af502-6e3b-4812-82c7-60a36bc58621")
 		(property "Reference" "S26"
@@ -12693,7 +12695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 190.5 71.12 0)
 			(effects
 				(font
@@ -12742,7 +12744,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc56a190-9e38-4ed0-9b5e-60be7630213c")
 		(property "Reference" "S59"
@@ -12761,7 +12763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 179.07 130.81 0)
 			(effects
 				(font
@@ -12810,7 +12812,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2424f9a-5d7d-49a9-816c-3ec6f64d819d")
 		(property "Reference" "S45"
@@ -12829,7 +12831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 95.25 110.49 0)
 			(effects
 				(font
@@ -12878,7 +12880,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e24ee542-83a3-4b56-8e61-7a092475431a")
 		(property "Reference" "S37"
@@ -12897,7 +12899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 166.37 92.71 0)
 			(effects
 				(font
@@ -12946,7 +12948,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e33e61f7-277c-4168-9a6e-3ba63f9bd4c5")
 		(property "Reference" "S30"
@@ -12965,7 +12967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -13454,7 +13456,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec31e84b-a793-4c54-a6aa-76341020d20e")
 		(property "Reference" "S16"
@@ -13473,7 +13475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 69.85 71.12 0)
 			(effects
 				(font
@@ -13522,7 +13524,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee8fb65e-d14e-4d51-8872-66e0dcdb53ba")
 		(property "Reference" "S10"
@@ -13541,7 +13543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 166.37 49.53 0)
 			(effects
 				(font
@@ -13590,7 +13592,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eedbfbc8-4ceb-4d02-8f82-ee2431fdab1a")
 		(property "Reference" "S47"
@@ -13609,7 +13611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 118.11 110.49 0)
 			(effects
 				(font
@@ -13658,7 +13660,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f12c0f18-09f7-493f-9d2a-ace72d6d3f2f")
 		(property "Reference" "S48"
@@ -13677,7 +13679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 110.49 0)
 			(effects
 				(font
@@ -13881,7 +13883,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8a04b20-6c7d-471d-b755-6ab0496a4654")
 		(property "Reference" "S53"
@@ -13949,7 +13951,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8b47fe8-1341-4cc2-8c7e-890415cae0ae")
 		(property "Reference" "S23"
@@ -13968,7 +13970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 71.12 0)
 			(effects
 				(font
@@ -14017,7 +14019,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8c47233-122b-4e8b-b102-a045f45450b9")
 		(property "Reference" "S44"
@@ -14036,7 +14038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 110.49 0)
 			(effects
 				(font
@@ -14173,7 +14175,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1c31b2-2c3d-4052-9f1b-df0f95c827ed")
 		(property "Reference" "S50"
@@ -14192,7 +14194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "sandpiperfootprints:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 110.49 0)
 			(effects
 				(font
