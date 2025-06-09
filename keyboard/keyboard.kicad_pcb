@@ -1389,9 +1389,20 @@
 			(pintype "passive")
 			(uuid "6d28afbd-cabb-4d6a-92a3-6eb6cc9b08d8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_2.25u_PCB.wrl"
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
+			(offset
+				(xyz -2.5 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2874,9 +2885,9 @@
 			(pintype "passive")
 			(uuid "b035727b-6364-4ace-a041-f38e94e726c8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.wrl"
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8737,9 +8748,9 @@
 			(pintype "passive")
 			(uuid "5f3ceccd-e68a-4c6f-96d0-d31a2f8e5c25")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.wrl"
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -9656,9 +9667,20 @@
 			(pintype "passive")
 			(uuid "e45f6cbb-bc67-4720-bc64-0b4d0b7f1cd1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_6.25u_PCB.wrl"
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
+				(xyz -2.6 -5.125 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_6.25u.step"
+			(offset
+				(xyz -2.5 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -11320,9 +11342,9 @@
 			(pintype "passive")
 			(uuid "91dd6023-4275-4e1f-96eb-8533809f48fc")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.25u_PCB.wrl"
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -17585,9 +17607,20 @@
 			(pintype "passive")
 			(uuid "00fbe92b-ec9e-4e8b-9a1b-d7ea4b7555fb")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_2.25u_PCB.wrl"
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
+			(offset
+				(xyz -2.5 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -19367,9 +19400,9 @@
 			(pintype "passive")
 			(uuid "645519b6-f693-4b43-b8f4-eec2386171f8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.75u_PCB.wrl"
+		(model "D:/repos/scottokeebs/Extras/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
