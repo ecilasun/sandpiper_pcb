@@ -15443,7 +15443,7 @@
 				)
 			)
 		)
-		(property "Value" "22K"
+		(property "Value" "22R"
 			(at 173.99 194.31 90)
 			(effects
 				(font
@@ -16243,7 +16243,7 @@
 				)
 			)
 		)
-		(property "Value" "22K"
+		(property "Value" "22R"
 			(at 173.99 196.85 90)
 			(effects
 				(font
