@@ -12,3 +12,15 @@ This repo contains the PCB files for sandpiper project.
 - If you build the keyboard PCB and want to program the firmware on it, please see the firmware/ folder in this repo. Use an AVR programmer with AVRdude / AVRdudess or QMK Toolbox to burn the flash onto the chip.
 - The pin header for the programmer goes on the bottom side of the board where the chip sits, and the square pin connection is actually the MISO pin and not the ground pin due to an error. Please see the following image to locate the correct pins and plug the programmer header accordingly:<br><img src="./documents/ISPpins.png" width="300px"/><br>
 - Do not forget to cut or remove the programming header pins once you're done so that the board does not get stuck or bend when sliding it into the rails on the bottom side of the enclosure.
+
+# Related repos
+
+An SDK is provided alongside the PCB for the keyboard module and enclosure files for 3D printing, as well as the build files for Linux kernel and drivers in the following repositories:
+
+https://github.com/ecilasun/sandpiper_hw/
+
+https://github.com/ecilasun/sandpiper_petalinux/
+
+https://github.com/ecilasun/sandpiper_pcb/
+
+https://github.com/ecilasun/sandpiper_sdk/
