@@ -1,13 +1,9 @@
 [
-  {
-    "backcolor": "#000000",
-    "author": "Engin Cilasun",
-    "switchMount": "cherry",
-    "switchBrand": "kailh",
-    "switchType": "PG151101D01/D15",
-    "pcb": true
-  },
   [
+    {
+      "c": "#262626",
+      "t": "#ffffff"
+    },
     "ESC",
     "!\n1",
     "@\n2",
@@ -89,16 +85,28 @@
       "w": 2.25
     },
     "Shift",
+    {
+      "c": "#cccccc",
+      "t": "#000000"
+    },
     "↑"
   ],
   [
     {
       "x": 0.5,
+      "c": "#262626",
+      "t": "#ffffff",
       "w": 1.25
     },
     "Ctrl",
+    {
+      "c": "#ffffff",
+      "t": "#000000"
+    },
     "Fn",
     {
+      "c": "#262626",
+      "t": "#ffffff",
       "w": 1.25
     },
     "Alt",
@@ -114,6 +122,10 @@
       "w": 1.25
     },
     "Alt",
+    {
+      "c": "#cccccc",
+      "t": "#000000"
+    },
     "Pause",
     {
       "x": 0.5
