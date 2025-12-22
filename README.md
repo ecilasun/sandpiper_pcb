@@ -13,9 +13,9 @@ This repo contains the PCB files for sandpiper project.
 - The pin header for the programmer goes on the bottom side of the board where the chip sits, and the square pin connection is actually the MISO pin and not the ground pin due to an error. Please see the following image to locate the correct pins and plug the programmer header accordingly:<br><img src="./documents/ISPpins.png" width="300px"/><br>
 - Do not forget to cut or remove the programming header pins once you're done so that the board does not get stuck or bend when sliding it into the rails on the bottom side of the enclosure.
 
-## Related repos
+## Documentation
 
-See the [Sandpiper project page](https://ecilasun.github.io/sandpiper/) for related repositories and documentation.
+See the [Sandpiper project page](https://ecilasun.github.io/sandpiper/) for links to all related repositories and SDK documentation.
 
 ## Development toolchains
 
